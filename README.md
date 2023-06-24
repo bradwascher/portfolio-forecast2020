@@ -1,4 +1,4 @@
-# forfunforecast2020
+# 2020 Election Forecast: Approval Polls + Down-Ballot Results
 This script specifies a statistical model forecasting the 2020 United States presidential election.
 
 The forecast follows a Bayesian structure: prior information is paired with new data to arrive at posterior estimates. In this case, the prior was informed by a blend of state-level presidential job approval ratings and previous down-ballot statewide election results. These estimates were then paired with state-level polling data, gathered manually by the author throughout the campaign season, to refine the predictions further.
