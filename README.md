@@ -7,19 +7,26 @@ The model itself was coded in the R and Stan statistical languages, and draws he
 
 The model's performance was tested by retroactively fitting the model to predict the outcome of the 2020 presidential contest between Donald Trump and Joe Biden in all 50 states and D.C. The forecast predicted  a 98% chance of an electoral college victory for Joe Biden, a higher mark compared to other 2020 forecasts. The model performed less admirably than standard forecasts in a few key regards: margins notwithstanding, only 43 states were “called” correctly, and a handful of states fell outside of the forecast’s credibility intervals. The below plots illustrate key themes.
 
-![nationwide](https://github.com/bradwascher/forfunforecast2020/assets/38922214/ebc35dca-6a0f-4f85-bbf2-9d34b6a291d3)
+### Estimates nationwide and in key states
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/nationwide.png)
 
-![ev histogram](https://github.com/bradwascher/forfunforecast2020/assets/38922214/2d65f194-cf1f-4d25-8202-84bce87e6d05)
+### Histogram of electoral votes
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/ev%20histogram.png)
 
-![predictions vs real](https://github.com/bradwascher/forfunforecast2020/assets/38922214/62ed604f-6e78-4746-bd18-358892d3dec1)
+### Predictions vs actual results
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/predictions%20vs%20real.png)
 
-![difference between polls and national vote](https://github.com/bradwascher/forfunforecast2020/assets/38922214/41e3deaa-6d94-4e1f-a438-a30bc96906fe)
+### Difference between polls and national vote
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/difference%20between%20polls%20and%20national%20vote.png)
 
-![bias by pollster](https://github.com/bradwascher/forfunforecast2020/assets/38922214/8a1af5df-bd5c-482a-b095-4cb36758316a)
+### Bias by pollster
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/bias%20by%20pollster.png)
 
-![bias by mode](https://github.com/bradwascher/forfunforecast2020/assets/38922214/376e1e0d-24ba-451c-9553-a256758b2d7b)
+### Bias by mode
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/bias%20by%20mode.png)
 
-![bias by sample space](https://github.com/bradwascher/forfunforecast2020/assets/38922214/4b9f7793-cbe9-4d8e-84f8-bf2c26ca1232)
+### Bias by sample space
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/bias%20by%20sample%20space.png)
 
-![brier scores](https://github.com/bradwascher/forfunforecast2020/assets/38922214/5ae53d88-d415-4e1f-b509-4520f24b96c0)
-
+### Brier scores
+![alt text](https://github.com/bradwascher/portfolio-forecast2020/blob/main/images/brier%20scores.PNG)
